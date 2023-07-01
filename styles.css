@@ -80,9 +80,7 @@ border-bottom-left-radius: 0;
 .summary h2{
     margin-left: -.5rem;
 }
-.summary button:hover {
-    background-image: linear-gradient(#6542FE, #342CE2);
-}
+
 .summary .summary-i{
     display: flex;
 
@@ -139,10 +137,13 @@ display: flex;
     cursor: pointer;
     transition: 0.5s;
 }
+
 .summary button:active{
     scale: 0.89;
 }
-
+.summary button:hover {
+    background-image: linear-gradient(#6542FE, #342CE2);
+}
 @media (max-width:375px) {
    main .container{
     flex-direction: column;
